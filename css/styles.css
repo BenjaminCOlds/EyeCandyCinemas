@@ -238,8 +238,15 @@ textarea:hover {
     color: #DCF763;
 }
 
+.show-times {
+    margin-left: 600px;
+    border-style: solid;
+    text-align: left;
+}
 
-
+#MovieScreeningsMain {
+    padding-top: 200px;
+}
 
 
 
