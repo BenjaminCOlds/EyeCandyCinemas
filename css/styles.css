@@ -110,21 +110,6 @@ li {
     color: #77EFFF;
 }
 
-.batman-banner-image {
-    
-    position: absolute;
-    left: 15%;
-    height: 250px;
-    width: 37.7%;    
-}
-
-.joker-banner-image {
-    position: absolute;
-    right: 9.6%;
-    height: 250px;
-    width: 37.7%;
-}
-
 .page-heading {
     text-align: center;
     padding-top: 6%;
@@ -148,12 +133,12 @@ li {
     background-color: #2C4366;
     padding: 10px;
     border: none;
-    transition: all 1s ease-out 200ms;
+    opacity: 0.6;
 }
 
 .submit-button:hover {
-    text-transform: lowercase;
     border: none;
+    opacity: 1;
 }
 
 input {
@@ -185,7 +170,7 @@ textarea:hover {
 }
 
 .private-venue-image {
-    padding-top: 18%;
+    padding-top: 7%;
     width: auto;
     height: 275px;
     left: 400px;
@@ -194,7 +179,7 @@ textarea:hover {
 }
 
 .private-venue-text {
-    padding-top: 20%;
+    padding-top: 8.5%;
     margin-left: 59%;
     margin-right: 10%;
     text-align: justify;
@@ -236,7 +221,7 @@ textarea:hover {
 }
 
 .show-times {
-    margin-left: 600px;
+    margin-left: 450px;
     text-align: left;
 }
 
@@ -253,6 +238,25 @@ th {
     margin-right: 90px;
 }
 
-.movie-time-button {
+.page-heading-movies {
+    text-align: center;
+    padding-left: 10%;
+    margin-top: -6%;
+}
 
+.movie-time-button {
+    box-shadow: 0 8px 16px 0 rgba(248, 248, 248, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    background-color: #94B0DA; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+.movie-time-button:hover {
+    opacity: 1;
 }
