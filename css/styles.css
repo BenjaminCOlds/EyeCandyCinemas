@@ -5,7 +5,7 @@
 
 #eyeCandyHeading {
     text-align: center;
-    color: #FFFFFF;
+    color: #F67C47;
     padding-top: 1%;
     padding-bottom: 1%;
     margin-top: 0.5%;
@@ -30,7 +30,7 @@ body {
 .main {
     width: 90%;
     padding-bottom: 5%;
-    color: white;
+    color: #7AFFCF;
     text-align: center;
     height: 77%;
 }
@@ -44,11 +44,11 @@ body {
 
 #footerParagraph {
     text-align: center;
-    color: #FFFFFF;
+    color: #7AFFCF;
 }
 
 .sidebar {
-    color: #FFFFFF;
+    color: #7AFFCF !important;
     position: absolute;
     left: 0;
     right: 0;
@@ -70,7 +70,7 @@ body {
 }
 
 .sidebar .menu-links .menu-link {
-    color: white;
+    color: #7AFFCF;
     text-decoration: none;    
     transition: all 0.5s ease-out 50ms;
 
@@ -80,7 +80,7 @@ body {
     text-decoration: underline;
     font-weight: bolder;
     text-transform: lowercase;
-    color: #DCF763;
+    color: #77EFFF;
 
 }
 
@@ -101,13 +101,13 @@ li {
 .heading-link {
     transition: all 0.5s ease-out 50ms;
     text-decoration: none;
-    color: white;
+    color: #7AFFCF;
 }
 
 .heading-link:hover {
     text-transform: lowercase;
     text-decoration: underline;
-    color: #DCF763;
+    color: #77EFFF;
 }
 
 .batman-banner-image {
@@ -232,7 +232,7 @@ textarea:hover {
 }
 
 #ThankYouLink {
-    color: #DCF763;
+    color: #77EFFF;
 }
 
 .show-times {
