@@ -2,22 +2,20 @@
     font-family: 'Raleway', sans-serif;
 }
 
+
 #eyeCandyHeading {
     text-align: center;
     color: #FFFFFF;
-    background-color: #545454;
     padding-top: 1%;
     padding-bottom: 1%;
     margin-top: 0.5%;
     margin-left: -1%;
     width: 100%;
-    padding-left: 2%;
-    
-    
+    padding-left: 2%;  
 }
 
 html {
-    background: #545454;
+    background: #051336;
     max-width: 100%;
     overflow-x: hidden !important;
     overflow-y: scroll !important;
@@ -30,7 +28,6 @@ body {
     height: 95vh !important;
 }
 .main {
-    background-color: #2E2C2C;
     width: 90%;
     padding-bottom: 5%;
     color: white;
@@ -42,7 +39,6 @@ body {
     bottom: 0;
     width: 100%;
     position: absolute;
-    background-color: #545454;
     padding-right: 2% !important;
 }
 
@@ -55,7 +51,7 @@ body {
     color: #FFFFFF;
     position: absolute;
     left: 0;
-    background: #545454;
+    right: 0;
     height: 90vh;
     margin-top: -2%;
     width: 15%;
@@ -63,12 +59,14 @@ body {
 
 .sidebar .menu-links {
     list-style-type: none !important;
-    text-align: center;
+    text-align: left;
     z-index: 1;
 }
 
 .sidebar .menu-links .menu-label {
     padding-top: 25%;
+    font-size: 15px;
+    opacity: 50%;
 }
 
 .sidebar .menu-links .menu-link {
@@ -95,7 +93,6 @@ li {
 .right-section {
     position: absolute;
     right: 0;
-    background: #545454 !important;
     height: 89vh;
     width: 5%;
     /* margin-top: -2%; */
@@ -240,13 +237,22 @@ textarea:hover {
 
 .show-times {
     margin-left: 600px;
-    border-style: solid;
     text-align: left;
 }
 
 #MovieScreeningsMain {
     padding-top: 200px;
+    height: fit-content;
 }
+
+th {
+    text-align: center;
+}
+
+.movie-title {
+    margin-right: 90px;
+}
+
 
 
 
