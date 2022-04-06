@@ -255,6 +255,8 @@ th {
     display: inline-block;
     font-size: 16px;
     opacity: 0.8;
+    width: 180px;
+    width: 200px;
 }
 
 .movie-time-button:hover {
